@@ -9,14 +9,17 @@ Você também poderá listar todas as tarefas criadas nesta conta, bem como edit
 
 Para executar, você pode utilizar do Docker rodando o comando
 `docker build - < Dockerfile`
+
 Após isso, rodar o comando
 `docker image ls`
+
 Copiar o ID do container recém gerado e subi-lo com
 `docker run <id_imagem>`
+
 Substituindo o id_imagem pelo ID caputrado no passo anterior.
 
 Para os próximos passos desta API, considero:
-
 [] Implementar testes unitários e de integrações;
+[] Implementar Swagger para documentação da API;
 [] Integrar com postgresql;
 [] Adicionar o Keycloak como gerenciador de sessões e autorizações;
