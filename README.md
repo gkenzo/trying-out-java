@@ -14,3 +14,9 @@ Após isso, rodar o comando
 Copiar o ID do container recém gerado e subi-lo com
 `docker run <id_imagem>`
 Substituindo o id_imagem pelo ID caputrado no passo anterior.
+
+Para os próximos passos desta API, considero:
+
+[] Implementar testes unitários e de integrações;
+[] Integrar com postgresql;
+[] Adicionar o Keycloak como gerenciador de sessões e autorizações;
