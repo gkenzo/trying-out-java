@@ -1,11 +1,11 @@
-package br.com.helloworld.todolist.task;
+package br.com.helloworld.todolist.model;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
 
 import org.hibernate.annotations.CreationTimestamp;
 
-import br.com.helloworld.todolist.errors.UnableToParseUUIDError;
+import br.com.helloworld.todolist.controller.errors.UnableToParseUUIDError;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

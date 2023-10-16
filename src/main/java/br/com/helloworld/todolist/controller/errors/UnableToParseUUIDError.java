@@ -1,4 +1,4 @@
-package br.com.helloworld.todolist.errors;
+package br.com.helloworld.todolist.controller.errors;
 
 public class UnableToParseUUIDError extends Exception {
   String message;

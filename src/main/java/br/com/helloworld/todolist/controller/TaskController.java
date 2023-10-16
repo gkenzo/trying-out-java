@@ -1,4 +1,4 @@
-package br.com.helloworld.todolist.task;
+package br.com.helloworld.todolist.controller;
 
 import java.util.UUID;
 
@@ -13,7 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.helloworld.todolist.errors.UnableToParseUUIDError;
+import br.com.helloworld.todolist.model.TaskModel;
+import br.com.helloworld.todolist.repository.ITaskRepository;
 import br.com.helloworld.todolist.utils.Utils;
 import jakarta.servlet.http.HttpServletRequest;
 

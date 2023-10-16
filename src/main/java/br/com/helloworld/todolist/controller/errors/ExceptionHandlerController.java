@@ -1,4 +1,4 @@
-package br.com.helloworld.todolist.errors;
+package br.com.helloworld.todolist.controller.errors;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

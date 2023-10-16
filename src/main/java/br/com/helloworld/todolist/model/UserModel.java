@@ -1,4 +1,4 @@
-package br.com.helloworld.todolist.user;
+package br.com.helloworld.todolist.model;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
